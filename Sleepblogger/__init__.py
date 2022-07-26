@@ -3,7 +3,7 @@ import ctypes
 import subprocess, signal
 import logging
 
-log = logging.getLogger(name="CustomLogger")
+log = logging.getLogger()
 
 
 class SleepBlogger:
